@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Dash Machine</title>
+    <title>ILC Machine</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -13,7 +13,7 @@
     <script src="src/vendor/OrbitControls.js"></script>
     <script src="src/vendor/threex.dynamictexture.js"></script>
     <script src="src/vendor/socket.io.js"></script>
-    <script src="src/dash-machine.js"></script>
+    <script src="src/ilc-machine.js"></script>
 </head>
 <body>
 
@@ -22,10 +22,10 @@
 <div id="hudContainer">
 
     <div id="logo">
-        <a href="https://www.dash.org" target="_blank"><img src="assets/images/dash_logo_l_w.png"></a>
+        <a href="https://ilcoincrypto.com/" target="_blank"><img src="assets/images/ilc_logo_l_w.png"></a>
     </div>
     <div class="hud topRight">
-        <a href="https://explorer.dash.org/chain/Dash" target="_blank"><span class="hudTextLabel">Block</span><span
+        <a href="https://ilcoinexplorer.com/" target="_blank"><span class="hudTextLabel">Block</span><span
                 id="bestBlockHeightText" class="hudText"></span></a>
     </div>
     <div class="hud bottomLeft">
@@ -33,34 +33,21 @@
     </div>
     <div class="hud bottomRight">
         <ul id="socialIcons">
+            
+            
             <li>
-                <a href="https://www.youtube.com/channel/UCAzD2v9Yx4a4iS2_-unODkA" target="_blank">
-                    <img src="assets/icons/1458594451_58-youtube.png">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.reddit.com/r/dashpay" target="_blank">
-                    <img src="assets/icons/1458594973_Reddit.png">
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/dashpay" target="_blank">
+                <a href="https://twitter.com/ILC_B_Project" target="_blank">
                     <img src="assets/icons/1458594536_43-twitter.png">
                 </a>
             </li>
             <li>
-                <a href="https://www.facebook.com/dashpay" target="_blank">
+                <a href="https://www.facebook.com/ILCoinBlockchainProject/" target="_blank">
                     <img src="assets/icons/1458594420_46-facebook.png">
                 </a>
             </li>
+            
             <li>
-                <a href="https://www.linkedin.com/groups?home=&amp;gid=8179817&amp;trk=groups_most_recent-h-logo&amp;goback=%2Egmp_8179817"
-                   target="_blank">
-                    <img src="assets/icons/1458595049_LinkedIn.png">
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/andyfreer/dash-machine" target="_blank">
+                <a href="https://github.com/ILCoinDevTeam" target="_blank">
                     <img src="assets/icons/1458594844_github_rounded.png">
                 </a>
             </li>
@@ -68,7 +55,7 @@
     </div>
     <div id="loader">
         <div id="loaderInfo">
-            <a href="https://www.dash.org" target="_blank"><img src="assets/images/dash_logo_l.png" style="width:50%;"></a>
+            <a href="https://ilcoincrypto.com/" target="_blank"><img src="assets/images/ilc_logo_l.png" style="width:50%;"></a>
             <br/>
             <img src="assets/images/loading.io.gif" style="width:10%;">
         </div>
@@ -85,7 +72,7 @@
             bestBlockHeightText: document.getElementById('bestBlockHeightText'),
             nextBlockTime: document.getElementById('nextBlockTime'),
             canvas: document.getElementById("canvas"),
-            apiURL: 'https://insight.dash.org:443/'
+            apiURL: 'https://ilcoinexplorer.com/'
         });
     });
 </script>
